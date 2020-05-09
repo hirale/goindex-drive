@@ -14,7 +14,7 @@ function init(){
     if(dark){
         html += `
         <div id="nav" class="mdui-toolbar mdui-container mdui-text-color-white-text">
-        </div>`;
+		</div>`;
     }else{
         html += `
         <div id="nav" class="mdui-toolbar mdui-container">
@@ -23,7 +23,10 @@ function init(){
 html += `
     </header>
         <div id="content" class="mdui-container"> 
-        </div>`;
+		</div>
+		<div style="display:flex;justify-content:center;align-items:center">
+		<img width="30%" src="https://cdn.jsdelivr.net/gh/hirale/goindex-drive@2.4/donate.jpg" >
+		</div>`;
     $('body').html(html);
 }
 

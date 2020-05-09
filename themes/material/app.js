@@ -24,18 +24,9 @@ html += `
     </header>
         <div id="content" class="mdui-container"> 
 		</div>
-		<p href="#" id="donate" style="
-    text-align: center;
-">如果你觉得对你有帮助，可以请作者喝一杯咖啡^_^. </p>
-<div id="donateImg" style="
-display: none;
-"><div style="display:flex;justify-content:center;align-items:center;">
-	<img width="30%" src="https://cdn.jsdelivr.net/gh/hirale/goindex-drive@2.4/donate.jpg">
-</div></div><script>
-$('#donate').click(function(){
-    $('#donateImg').toggle();
-});
-</script>`;
+		<div style="display:flex;justify-content:center;align-items:center">
+		<img width="30%" src="https://cdn.jsdelivr.net/gh/hirale/goindex-drive@2.4/donate.jpg" >
+		</div>`;
     $('body').html(html);
 }
 
